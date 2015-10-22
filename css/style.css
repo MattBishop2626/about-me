@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:500,400);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+
+body {
+  font-family:"Ubuntu", "Arial", sans-serif;
+  font-size: 16px;
+  line-height:1.8;
+  text-align:center;
+  background-color: #f3f1f1;
+  color: #585858;
+}
+
+header{
+  background-image:url(../images/stars.jpg);
+  padding:125px 0 125px 0;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: cover;
+}
+
+nav{
+  background-color: #ea1523;
+  padding:12px 0;
+}
+
+nav a {
+  text-transform: capitalize;
+  font-weight:400;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 20px
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 720px;
+  margin: 0 auto 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  font-family:"Shadows Into Light Two", "Ubuntu", "Arial" sans-serif;
+  font-size: 120px;
+  color: #fff;
+  text-shadow: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 45px;
+
+}
+
+h3 {
+  font-size: 20px;
+}
+
+small {
+  font-family: "Shadows Into Light Two", "Ubuntu", "Arial" sans-serif;
+  color: #fff
+}
+
+img, iframe {
+  max-width: 100%
+}
+
+.enlarge {
+  width: 720px
+}
